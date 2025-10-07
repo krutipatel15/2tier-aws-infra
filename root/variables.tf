@@ -10,7 +10,9 @@ variable "pri_sub_6b_cidr" {}
 variable "db_name" {}
 variable "db_sub_name" {}
 variable "db_username" {}
-variable "db_password" {}
+variable "db_password" {
+    sensitive = true
+}
 variable "certificate_domain_name" {}
 variable "additional_domain_name" {}
 variable "hosted_zone_name" {}

@@ -27,4 +27,8 @@ resource "aws_db_instance" "db" {
   tags = {
     Name = "bookdb"
   }
+
+  lifecycle {
+    prevent_destroy = true
+  }
 }

@@ -58,3 +58,21 @@ What this setup gives you:
 ```bash
 git clone terraform-aws-2tier
 cd terraform-aws-2tier
+```
+
+### 2️⃣ Initialize Terraform
+
+```bash
+terraform init
+```
+
+### 3️⃣ Plan and apply the infrastructure
+
+```bash
+terraform plan
+terraform apply
+```
+
+### 4️⃣ Watch your infrastructure come to life 🌟
+
+Terraform will provision all required AWS resources and display the outputs once complete.
